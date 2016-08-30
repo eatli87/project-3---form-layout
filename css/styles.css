@@ -110,8 +110,7 @@ textarea:focus {
 	border: 2px solid rgba(46, 57, 69, .6);
 }
 
-form label,
-form h2 {
+.contact-info label{
 	text-transform: capitalize;
 }
 
@@ -161,7 +160,21 @@ button:hover {
 	.top-container,
 	form,
 	button {
-		max-width: 600px;
+		max-width: 750px;
 	}
+	
+	.contact-info label {
+		float: left;
+		width: 30%;
+		margin-bottom: 1em;
+	}
+	
+	.contact-info input,
+	.contact-info select{
+		float: left;
+		width: 70%;
+		margin-bottom: 1em;
+	}
+	
 }
 
